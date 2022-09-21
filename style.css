@@ -1,0 +1,55 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+
+  background-color: snow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.list {
+  list-style-type: none;
+
+  padding: 0;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.listItem {
+  border: 0.5px solid lightgray;
+  padding: 16px;
+
+  cursor: pointer;
+
+  max-height: 200px;
+
+  display: flex;
+  gap: 8px;
+}
+
+.content {
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  height: 100%;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
